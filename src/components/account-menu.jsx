@@ -1,10 +1,9 @@
 // import { useMutation, useQuery } from '@tanstack/react-query'
 // import { Building, ChevronDown, LogOut } from 'lucide-react'
 import { useNavigate } from 'react-router';
-import React from 'react';
 import { Dropdown, Space } from 'antd';
 import { CircleUserRound, LogOut } from 'lucide-react';
-import { signOut } from "../../api/sign-out";
+import { signOut } from "./../api/sign-out";
 
 export function AccountMenu() {
 	const username = localStorage.getItem("username");
