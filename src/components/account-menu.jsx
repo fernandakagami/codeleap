@@ -52,7 +52,7 @@ export function AccountMenu() {
      <Dropdown menu={{ items }}>
 			<a onClick={(e) => e.preventDefault()}>
 				<Space>
-					<CircleUserRound size={28} className="cursor-pointer" />
+					<CircleUserRound size={30} className="cursor-pointer" />
 				</Space>
 			</a>
 		</Dropdown>

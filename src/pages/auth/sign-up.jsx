@@ -2,7 +2,6 @@ import { Form, Input, Button, Card, Flex } from "antd";
 import { signUp } from "../../api/sign-up";
 import { useNavigate } from 'react-router';
 
-
 export function SignUp() {
 	const navigate = useNavigate();
 
@@ -30,13 +29,13 @@ export function SignUp() {
             <Input placeholder="John doe" />
           </Form.Item>        
 
-				<Flex align="center" justify="end">
-					<Form.Item label={null}>
-						<Button type="primary" htmlType="submit" className="uppercase px-10 py-2 text-base !bg-[#7695EC]">
-							Enter
-						</Button>
-					</Form.Item>
-				</Flex>
+          <Flex align="center" justify="end">
+            <Form.Item label={null}>
+              <Button type="primary" htmlType="submit" className="uppercase px-10 py-2 text-base !bg-[#7695EC]">
+                Enter
+              </Button>
+            </Form.Item>
+          </Flex>
   
         </Form>   
 
